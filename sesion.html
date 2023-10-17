@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="cod3.css">
+<head>
+	<title>Formulario de inicio de sesión</title>
+	<style>
+		form {
+			width: 300px;
+			margin: auto;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		input[type="text"], input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<form action="" method="post">
+		<h2>Inicio de sesión</h2>
+		<label for="usuario">Usuario:</label>
+		<input type="text" id="usuario" name="usuario" required>
+		<label for="contrasena">Contraseña:</label>
+		<input type="password" id="contrasena" name="contrasena" required>
+                <label for="contrasena">Confirmar su contraseña:</label>
+		<input type="password" id="contrasena" name=" contrasena" required>
+		<input type="submit" value="Iniciar sesión">
+	</form>
+</body>
+</html>
